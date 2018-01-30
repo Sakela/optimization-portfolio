@@ -522,7 +522,7 @@ function updatePositions() {
 
   // var items = document.querySelectorAll('.mover');
 
-  var scrollTop = document.body.scrollTop;
+  var scrollTop = document.documentElement.scrollTop;
 
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin((scrollTop / 1250) + (i % 5));
